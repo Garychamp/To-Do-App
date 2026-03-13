@@ -1,0 +1,32 @@
+body {
+  font-family: Impact, sans-serif, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(38, 109, 232);
+}
+
+.input-container {
+  margin: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 16px;
+  margin-left: 5px;
+  background-color: snow;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: grey;
+}
